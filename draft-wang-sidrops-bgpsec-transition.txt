@@ -5,11 +5,11 @@
 Secure Inter-Domain Routing                                        K. Xu
 Internet-Draft                                                   X. Wang
 Intended status: Informational                                    Z. Liu
-Expires: 10 December 2025                                          Q. Li
+Expires: 10 June 2026                                              Q. Li
                                                      Tsinghua University
                                                                   Y. Guo
                                                  Zhongguancun Laboratory
-                                                             8 June 2025
+                                                         7 December 2025
 
 
 Transition to Full BGPsec Deployment: Transitive-BGPsec is Incompatible
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 10 December 2025.
+   This Internet-Draft will expire on 10 June 2026.
 
 Copyright Notice
 
@@ -77,6 +77,7 @@ Table of Contents
      2.2.  The Transitive BGPsec_PATH Attribute
      2.3.  Updating and Receiving BGP UPDATE message
    3.  Question: Compatibility with Native BGPsec
+     3.1.  Explainations
    4.  Security Considerations
    5.  IANA Considerations
    6.  References
@@ -238,6 +239,12 @@ Table of Contents
 
    A new intermediate protocol is required in the transition to full
    BGPsec deployment.
+
+3.1.  Explainations
+
+   Why we persistently on making a transitive BGP path security
+   mechanism is that we would like to make the new one can achieve more
+   benefit for the whole network, not just making some BGPsec islands.
 
 4.  Security Considerations
 
