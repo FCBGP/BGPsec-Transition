@@ -144,6 +144,10 @@ Thus, we conclude that the transitive BGPsec is not a viable option to make BGPs
 
 A new intermediate protocol is required in the transition to full BGPsec deployment.
 
+## Explainations
+
+Why we persistently on making a transitive BGP path security mechanism is that we would like to make the new one can achieve more benefit for the whole network, not just making some BGPsec islands.
+
 
 # Security Considerations
 
